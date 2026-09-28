@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.jest/
+
+# Build
+dist/
+build/
+*.bundle.*
+
+# Expo
+.expo/
+.expo-shared/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+.DS_Store
+*.log
+
+# App-specific
+.eas/
+
+# For now, don't ignore API keys (remember to .gitignore these before committing!)
+# app.json should have YOUR_GOOGLE_MAPS_API_KEY placeholders
